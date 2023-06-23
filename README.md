@@ -2,7 +2,6 @@
 kalimot is a menu script to run Kali RAP or Kali Cloud
 
 ## How to Run
-<br/>
 ```bash
 ./kalimot.sh
 ```
