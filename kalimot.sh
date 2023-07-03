@@ -70,7 +70,7 @@ echo -ne "
         4) kali1 ${USERNAME}; exit 0;;
         5) kali2 ${USERNAME}; exit 0;;
         0) echo -e "Closing..."; exit 0;;
-        *) echo -e "Invalid Input. Please try again."; menu;;
+        *) echo -e "Invalid input. Please try again."; menu;;
     esac
 }
 
