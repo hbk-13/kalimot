@@ -6,14 +6,14 @@
 ###
 
 rap() {
-	echo "[*] Running RAP"
+    echo "[*] Running RAP"
     read -p "Enter RAPID: " RAP_ID
     echo "[+] RAP ID --> ${RAP_ID}"
     echo "[*] Loading..."
     ssh -A -t ${1}@rapgw.vikingcloud.com ssh -A -t -p ${RAP_ID} root@::1
 }
 rap_proxychains() {
-	echo "[*] Running RAP with Proxychains"
+    echo "[*] Running RAP with Proxychains"
     read -p "Enter RAPID: " RAP_ID
     echo "[+] RAP ID --> ${RAP_ID}"
     read -p "Enter Dynamic Port: " Dynamic_Port
@@ -22,7 +22,7 @@ rap_proxychains() {
     ssh -fND 127.0.0.1:${Dynamic_Port} -J ${1}@rapgw.vikingcloud.com -p ${RAP_ID} root@::1
 }
 rap_socks_proxy() {
-	echo "[*] Running RAP with Socks Proxy"
+    echo "[*] Running RAP with Socks Proxy"
     read -p "Enter RAPID: " RAP_ID
     echo "[+] RAP ID --> ${RAP_ID}"
     read -p "Enter Local Port: " Local_Port
@@ -30,17 +30,17 @@ rap_socks_proxy() {
     read -p "Enter Dynamic Port: " Dynamic_Port
     echo "[+] Dynamic Port --> ${Dynamic_Port}"
     echo "[*] Loading..."
-	ssh -A -t -L ${Local_Port}:localhost:${Dynamic_Port} ${1}@rapgw.vikingcloud.com ssh -D ${Dynamic_Port} -A -t -p ${RAP_ID} root@::1
+    ssh -A -t -L ${Local_Port}:localhost:${Dynamic_Port} ${1}@rapgw.vikingcloud.com ssh -D ${Dynamic_Port} -A -t -p ${RAP_ID} root@::1
 }
 kali1() {
-	echo "[*] Running Kali Cloud 1"
+    echo "[*] Running Kali Cloud 1"
     echo "[*] Loading..."
-	ssh ${1}@10.128.0.4
+    ssh ${1}@10.128.0.4
 }
 kali2() {
-	echo "[*] Running Kali Cloud 2"
+    echo "[*] Running Kali Cloud 2"
     echo "[*] Loading..."
-	ssh ${1}@10.128.0.6
+    ssh ${1}@10.128.0.6
 }
 
 menu() {
