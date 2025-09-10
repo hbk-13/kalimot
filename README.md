@@ -21,6 +21,7 @@ chmod +x kalimot.sh
 
 <br>
 
+```csharp
 =============
  ? KALIMOT ?
 =============
@@ -32,6 +33,7 @@ chmod +x kalimot.sh
 [5] Kali Cloud 1 (10.128.0.4)
 [6] Kali Cloud 2 (10.128.0.6)
 [0] Exit
+```
 
 <br>
 <br>
