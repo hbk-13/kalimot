@@ -15,7 +15,12 @@ It provides a convenient menu-driven interface for different connection methods,
 Simple menu interface for choosing operations.
 
 🔑 RAP Gateway Access – Quick access to RAP Gateway.
+
 📡 RAP Access – Connect directly to RAP devices by RAPID.
+
 🌐 RAP with Proxychains – Establish a proxy for use with tools like proxychains.
+
 🧩 RAP with SOCKS Proxy – Create SOCKS tunnels for flexible redirection.
+
 ☁️ Kali Cloud Access – Connect directly to predefined Kali Cloud servers.
+
