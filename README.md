@@ -5,23 +5,59 @@ It provides a convenient menu-driven interface for different connection methods,
 
 ## Usage
 
-How to Run
+1. Clone the Repository
+```bash
+git clone https://github.com/yourusername/kalimot.git
+cd kalimot
+```
+2. Make the Script Executable
+```bash
+chmod +x kalimot.sh
+```
+3. Run the Script
 ```bash
 ./kalimot.sh
 ```
 
 <br>
+
+=============
+ ? KALIMOT ?
+=============
+
+[1] RAPGW
+[2] RAP
+[3] RAP w/ Proxychains (Preferably Run on Kali VM or Kali Cloud)
+[4] RAP w/ Socks Proxy
+[5] Kali Cloud 1 (10.128.0.4)
+[6] Kali Cloud 2 (10.128.0.6)
+[0] Exit
+
+<br>
 <br>
 
-🚀 Features
+⚡ Requirements
 
-🔑 RAP Gateway Access – Quick access to RAP Gateway.
+Linux / macOS environment (tested on Kali Linux)
 
-📡 RAP Access – Connect directly to RAP devices by RAPID.
+SSH client installed
 
-🌐 RAP with Proxychains – Establish a proxy for use with tools like proxychains.
+Access credentials for RAP Gateway / Kali Cloud
 
-🧩 RAP with SOCKS Proxy – Create SOCKS tunnels for flexible redirection.
+<br>
+<br>
 
-☁️ Kali Cloud Access – Connect directly to predefined Kali Cloud servers.
+📌 Notes
 
+Proxychains mode is recommended when running inside Kali VM or Kali Cloud environments.
+
+RAPID values are automatically adjusted by adding 100 before connecting.
+
+Ensure your account has valid access rights to RAP Gateway and Kali Cloud servers.
+
+<br>
+<br>
+
+📝 License
+
+This project is released under the MIT License – free to use, modify, and share.
