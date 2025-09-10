@@ -5,7 +5,7 @@ It provides a convenient menu-driven interface for different connection methods,
 
 ## Usage
 
-## How to Run
+How to Run
 ```bash
 ./kalimot.sh
 ```
@@ -14,8 +14,6 @@ It provides a convenient menu-driven interface for different connection methods,
 <br>
 
 🚀 Features
-
-Simple menu interface for choosing operations.
 
 🔑 RAP Gateway Access – Quick access to RAP Gateway.
 
