@@ -62,6 +62,7 @@ Ensure your account has valid access rights to RAP Gateway and Kali Cloud server
 
 📝 License
 
-This project is released under the MIT License – free to use, modify, and share.
+This project is released under the MIT License – free to use, modify, and share.\
 
-
+<br>
+<br>
