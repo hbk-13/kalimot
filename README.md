@@ -3,6 +3,8 @@
 KALIMOT is a Bash automation script designed to simplify connecting to VikingCloud RAP (Remote Access Point) gateways and Kali Cloud instances.
 It provides a convenient menu-driven interface for different connection methods, including proxychains and SOCKS proxy tunneling.
 
+<br>
+
 ## Usage
 
 1. Clone the Repository
@@ -36,7 +38,6 @@ chmod +x kalimot.sh
 ```
 
 <br>
-<br>
 
 ⚡ Requirements
 
@@ -47,7 +48,6 @@ SSH client installed
 Access credentials for RAP Gateway / Kali Cloud
 
 <br>
-<br>
 
 📌 Notes
 
@@ -57,7 +57,6 @@ RAPID values are automatically adjusted by adding 100 before connecting.
 
 Ensure your account has valid access rights to RAP Gateway and Kali Cloud servers.
 
-<br>
 <br>
 
 📝 License
