@@ -68,7 +68,7 @@ echo -ne "
 
 "
     read -p "Choose an Option: " option
-    if [[ $option -gt 0 && $option -lt 6 ]]
+    if [[ $option -gt 0 && $option -lt 7 ]]
     then
         read -p "Enter Username: " USERNAME
         echo "[+] Username --> ${USERNAME}"
